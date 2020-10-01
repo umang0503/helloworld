@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'flutter app',
+      title: 'FLUTTER APP',
       home: MyHomePage(),
     );
   }
@@ -17,7 +17,7 @@ class MyHomePage extends StatelessWidget{
   Widget build(BuildContext context){
         return Scaffold(
           appBar : AppBar (
-            title: Text('flutter app'),
+            title: Text('FLUTTER APP'),
         ),
         body: Column(
         children: <Widget>[
@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget{
           Card(
             color: Colors.lightBlue,
       child: Text('chart!'),
-            elevation:5,
+            elevation:6,
           ),
       ),
 
