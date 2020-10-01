@@ -20,7 +20,7 @@ class MyHomePage extends StatelessWidget{
             title: Text('flutter app'),
         ),
         body: Column(
-        children: <Widget>[
+        
           Container(
             width:double.infinity,
           child :
